@@ -4,33 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convert Money</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<input>
+<body>
     
-    <img src="./assets/giphy.gif" alt="Logo-devclub-convert-money">
+    <img class="logo-gif" src="./assets/giphy.gif" alt="Logo-devclub-convert-money">
     <main>
         <label>Converter <b>de</b>
-            <select>
+            <select class="select-main">
                 <option>$ Real brasileiro</option>
-                <option>U$$ Dólar americano</option>
-                <option>€ Euro</option>
+                
             </select>
         </label>
 
         <label>Converter <b>para</b>
-            <select>
+            <select class="select-main">
                 <option>US$ Dólar americano</option>
                 <option>€ Euro</option>
+                <option>£ Libra</option>
             </select>
         </label>
-        <label>
-            Valor
-            <input placeholder="R$ 10.000,00">
-
+        <label>Valor<input placeholder="R$ 10.000,00">
         </label>
         <button>Converter</button>
 
@@ -38,24 +35,18 @@
             <div>
                 <img src="./assets/brasil.png" alt="logo-moeda a converter"> 
                 <p>Real</p>
-                <p>R$ 0,00</p>
+                <p class="p-convertido">R$ 0,00</p>
             </div>
 
-            <img src="./assets/arrow.png" alt="sete">
+            <img class="arrow" src="./assets/arrow.png" alt="sete">
 
             <div>
                 <img src="./assets/dolar.png" alt="logo-moeda convertida"> 
-                <p>Dólar</p>
-                <p>US$ 0.00</p>
+                <p>Dólar americano</p>
+                <p class="p-convertido">US$ 0.00</p>
             </div>
-        </section>
+        </section=>
     </main>
-
-
-
-
-
-
 
 </body>
 </html>
