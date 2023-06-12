@@ -24,7 +24,7 @@ body {
 
 main {
   width: 375px;
-  background-color: rgb(154,227,242);  
+  background-color: rgb(154, 227, 242);
   margin: 0 auto;
   border-radius: 20px;
   padding: 44px 24px 23px;
@@ -111,7 +111,8 @@ p {
 .arrow {
   width: 35px;
 }
-.p-convertido {
+.currency-value-to-convert,
+.currency-value {
   width: 122px;
   height: 18px;
   font-weight: 700px;
