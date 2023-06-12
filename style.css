@@ -24,7 +24,7 @@ body {
 
 main {
   width: 375px;
-  background: #f4f4f4;
+  background-color: rgb(154,227,242);  
   margin: 0 auto;
   border-radius: 20px;
   padding: 44px 24px 23px;
@@ -76,13 +76,13 @@ button {
   align-items: center;
   color: #ffffff;
   cursor: pointer;
-  }
+}
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 button:active {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 section {
