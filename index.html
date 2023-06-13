@@ -15,35 +15,37 @@
     <img class="logo-gif" src="./assets/giphy.gif" alt="Logo-devclub-convert-money">
     <main>
         <label>Converter <b>de</b>
-            <select class="select-main">
+            <select>
                 <option>$ Real brasileiro</option>
                 
             </select>
         </label>
 
         <label>Converter <b>para</b>
-            <select class="select-main">
-                <option>US$ Dólar americano</option>
-                <option>€ Euro</option>
-                <option>£ Libra</option>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
             </select>
         </label>
-        <label>Valor<input class="input-currency" placeholder="R$ 10.000,00">
+        <label>
+            Valor
+            <input class="input-currency" placeholder="R$ 10.000,00">
         </label>
-        <button class="button-convert">Converter</button>
+        <button class="convert-button">Converter</button>
 
         <section>
-            <div>
+            <div class="currency-box">
                 <img src="./assets/brasil.png" alt="logo-moeda a converter"> 
-                <p>Real</p>
+                <p class="currency">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
-            <img class="arrow" src="./assets/arrow.png" alt="sete">
+            <img class="arrow-img" src="./assets/arrow.png" alt="sete">
 
-            <div>
-                <img src="./assets/dolar.png" alt="logo-moeda convertida"> 
-                <p>Dólar americano</p>
+            <div class="currency-box">
+                <img class="currency-img" src="./assets/dolar.png" alt="logo-moeda convertida"> 
+                <p class="currency">Dólar americano</p>
                 <p class="currency-value">US$ 0.00</p>
             </div>
         </section=>
